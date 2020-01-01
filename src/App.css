@@ -1,22 +1,183 @@
-.App {
-  text-align: center;
+.header-color{
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-grids{
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.avatar-img{
+  width:250px;
+}
+.banner-text{
+  width: 56%;
+  
+  border-radius: 22px;
+  opacity: 0.8;
+  text-align: center;
+  background: darkslateblue;
+}
+.banner-text h1{
   color: white;
 }
+.banner-text hr{
+  
+  width: 50%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 9px dotted #ccc;
+  margin:auto;
+  padding: 0;
+}
+.banner-text p{
+  margin-top: 24px;
+  font-size: 20px;
+  color: darkorange;
+}
+.skills{
+  display: inline-block;
+  margin-right: 9px;
+  margin-left: 9px;
+  
+}
+.skills p{
+  padding:0 ;
+  transition: padding 0.3s ease;
+ 
+}
+.skills p:hover{
+  cursor: pointer;
+  padding: 0 5px 0 5px;
+  color:white;
+}
+.banner-skills{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+.divider{
+  padding-top: 30px;
+ width: 0;
+ height: 2em;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+}
 
-.App-link {
-  color: #09d3ac;
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  max-height: 80px;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+  transition: font-size 0.1s ease;
+}
+
+.social-links a :hover{
+  color: darkorange;
+  font-size: 5.2em;
+  padding: 8px;
+
+}
+
+.content{
+  margin-top: 20px;
+}
+
+/*Contact Pages*/
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-body::after {
+  content: "";
+  background-image:url("https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg");
+  background-size: cover;
+ 
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  
+  height: 550px;
+  
+  color: antiquewhite;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted antiquewhite;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  color: antiquewhite;
+  padding-right: 5rem;
+}
+
+.contact-list p {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  display: inline-block;
+  color: antiquewhite;
+  font-size: 36px;
+}
+
+.header_nav{
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    flex-direction: row;
+}
+.Home_Link{
+  color: white;
+  display: block;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 64px;
+  
+}
+.avatarImg{
+
 }
