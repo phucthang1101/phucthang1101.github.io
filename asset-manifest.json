@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/phucthang1101.github.io/static/css/main.39bdf954.chunk.css",
+    "main.js": "/phucthang1101.github.io/static/js/main.91fc07af.chunk.js",
+    "main.js.map": "/phucthang1101.github.io/static/js/main.91fc07af.chunk.js.map",
+    "runtime-main.js": "/phucthang1101.github.io/static/js/runtime-main.352f47ee.js",
+    "runtime-main.js.map": "/phucthang1101.github.io/static/js/runtime-main.352f47ee.js.map",
+    "static/css/2.7190192a.chunk.css": "/phucthang1101.github.io/static/css/2.7190192a.chunk.css",
+    "static/js/2.295d8d5b.chunk.js": "/phucthang1101.github.io/static/js/2.295d8d5b.chunk.js",
+    "static/js/2.295d8d5b.chunk.js.map": "/phucthang1101.github.io/static/js/2.295d8d5b.chunk.js.map",
+    "index.html": "/phucthang1101.github.io/index.html",
+    "precache-manifest.7d60c8ed9e708afb461a04d960e28256.js": "/phucthang1101.github.io/precache-manifest.7d60c8ed9e708afb461a04d960e28256.js",
+    "service-worker.js": "/phucthang1101.github.io/service-worker.js",
+    "static/css/2.7190192a.chunk.css.map": "/phucthang1101.github.io/static/css/2.7190192a.chunk.css.map",
+    "static/css/main.39bdf954.chunk.css.map": "/phucthang1101.github.io/static/css/main.39bdf954.chunk.css.map",
+    "static/js/2.295d8d5b.chunk.js.LICENSE": "/phucthang1101.github.io/static/js/2.295d8d5b.chunk.js.LICENSE",
+    "static/media/project1.png": "/phucthang1101.github.io/static/media/project1.044d1a04.png",
+    "static/media/project2.png": "/phucthang1101.github.io/static/media/project2.34be6f6b.png",
+    "static/media/project3.png": "/phucthang1101.github.io/static/media/project3.13dfc97a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.352f47ee.js",
+    "static/css/2.7190192a.chunk.css",
+    "static/js/2.295d8d5b.chunk.js",
+    "static/css/main.39bdf954.chunk.css",
+    "static/js/main.91fc07af.chunk.js"
+  ]
+}
